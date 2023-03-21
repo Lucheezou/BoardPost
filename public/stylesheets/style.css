@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+}
+
+#content {
+  flex-flow: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90%;
+}
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+
+#socials{
+display: flex;
+}
+
+.icon{
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+
+}
+
+#posts {
+overflow-x: hidden;
+overflow-y: auto;
+display: flex;
+flex-flow: column;
+border: 2px solid;
+margin-top : 20px;
+height: 500px;
+width: 60%;
+
+}
+
+#post {
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  border: 2px solid;
+  margin-top : 20px;
+  height: auto;
+  width: 50%;
+  
+  }
+
+.card {
+  margin: 20px;
+}
+
+#postbtn {
+  margin-top: 10px;
+  justify-self: center;
+  align-self: center;
+}
+
+.nav{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-flow: row-reverse;
+  margin: 10px;
+  border: 2px solid;
+  width: 98.5vw;
+}
+
+
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #00B7FF;
+}
+
